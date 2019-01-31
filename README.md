@@ -1,4 +1,4 @@
-Ezdine is an simple web restaurant management system. It is written in JavaScript and PHP. <br>
+Ezdine is an simple web restaurant management system. It is written in JavaScript and PHP. <hr>
 
 **User Guide:**
   1. Simply uses xampp to run offline. <br><br>
