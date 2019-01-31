@@ -1,0 +1,86 @@
+body{
+	overflow: hidden;
+}
+
+@keyframes slidein {
+	0% {
+		opacity: 0;
+		transform: translateY(-50%);
+	}
+	70% {
+		transform: translateY(2%);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#formContainer{
+	width: 25%;
+	border:solid 0px transparent;
+	border-radius: 20px;
+	box-shadow: 0px 0px 50px #367D99;
+	margin: 3% 35%;
+	padding: 4% 2%;
+	background-color: rgb(54, 125, 153, 0.6);
+	opacity: 0;
+	animation: slidein 1s 0.5s forwards;
+}
+
+.logodiv
+{
+	text-align: center;
+	margin: -8% 0%;
+}
+
+.logo
+{
+	width: 75%;
+}
+.login{
+	position: relative;
+	left: 5%;
+}
+
+.input
+{
+	border: solid 2px #335c9b;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 2% 5%;
+	width: 80%;
+}
+
+.input:hover{
+	box-shadow: 0px 0px 5px #303030;
+	transition: 0.3s
+}
+
+.input:focus{
+	box-shadow: inset 0px 0px 10px #335c9b;
+	transition: 0.5s
+}
+
+
+.signin
+{
+	border: solid 0px transparent;
+	border-radius: 10px;
+	background-color: #283b82;
+	color: white;
+	width: 90%;
+	height: 50px;
+	font-size: 18px;
+
+}
+
+.signin:hover
+{
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #303030;
+	transition: 0.5s;
+}
+
+.hr{
+	height: 2px;
+}

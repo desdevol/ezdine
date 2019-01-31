@@ -1,0 +1,44 @@
+#noTables{
+	font-size: 30px;
+}
+
+.tablecontainer{
+  width: 150px;
+  margin-top: 5%;
+  margin-right: 2%;
+  box-shadow: 2px 2px 5px #303030;
+  background-color: #57a4d1;
+  display: inline-block;
+}
+
+.tableblock{
+  height: 150px;
+  color: white;
+  border: solid 5px #57a4d1;
+  text-align: center;
+  font-size: 60px;
+  line-height: 150px;
+}
+
+.tableblock:hover{
+	transition: 0.3s;
+	cursor: pointer;
+	text-shadow: 5px 5px 5px #303030;
+}
+
+.empty{
+  background-color: #114868;
+}
+
+.empty:hover{
+	background-color: #16628e;
+}
+
+.ordered{
+	background-color: #ba273f;
+	border: solid 5px #ba273f;
+}
+
+.ordered:hover{
+	background-color: #a30d25;
+}

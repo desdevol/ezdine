@@ -1,0 +1,67 @@
+.saleContainer{
+  width: 75%;
+  margin: auto;
+  margin-top: 4%;
+  padding: 2% 8% 6% 8%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px #303030;
+  border: 0px;
+  border-radius: 20px;
+  background-color: #13547A;
+  color: white;
+}
+
+.totalSale{
+  width: 35%;
+  padding: 2% 4%;
+  font-size: 25px;
+  border-left: 5px solid #1c8bcc;
+  display: inline-block;
+  background-color: #092a3d;
+  box-shadow: 0px 0px 10px #303030;
+  margin-right: 5%;
+}
+
+.saleTable{
+  margin-top: 4%;
+  width: 100%;
+  font-size: 1.2vw;
+}
+
+.saleTable td, .saleTable th {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+}
+
+.saleTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.textLeft{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+#PDF{
+  border: 0;
+  border-radius: 5px;
+  padding: 1% 2%;
+  background-color: #ba273f;
+  color: white;
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+#PDF:hover{
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #303030;
+}

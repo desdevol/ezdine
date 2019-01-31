@@ -1,0 +1,45 @@
+.form
+{
+	position: absolute;
+	right: 50%;
+	top: 28%;
+}
+
+.logo1
+{
+	position: absolute;
+	right: 15%;
+	top: -65%;
+}
+
+.logo
+{
+	width:220%;
+}
+
+
+.hr
+{
+	width: 208%;
+}
+
+.input
+{
+	width: 200%;
+	padding: 5px;
+	font-family: 'Acme', sans-serif
+}
+
+.signin
+{
+	width: 208%;
+	padding: 5px;
+	border-radius: 10px;
+	border: solid 0px transparent;
+	font-family: 'Acme', sans-serif;
+	background-color: #283b82;
+	color: white;
+
+}
+
+

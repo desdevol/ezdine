@@ -1,0 +1,77 @@
+/*---------------Food ID---------------------*/
+.append1
+{
+	width: 13%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+   
+}
+
+/*--------------Food Name-----------------*/
+.append2
+{
+	width: 31%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+  
+}
+/*--------------Price-----------------*/
+.append3
+{
+	width: 16%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+   
+}
+
+/*--------------Quantity-----------------*/
+.append4
+{
+	width: 20%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+/*--------------Action-----------------*/
+.delete
+{
+	width: 20%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+}
+
+.delete1
+{
+    width: 20%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+}
+

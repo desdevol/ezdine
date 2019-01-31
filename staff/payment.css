@@ -1,0 +1,166 @@
+
+table
+{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+td
+{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/*Make the even row grey*/
+tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+/*Make the odd row white*/
+
+
+tr
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #29719b;
+    color: white;
+
+}
+
+
+
+/*---------------Food ID---------------------*/
+.append1
+{
+    width: 16.3%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+   
+}
+
+/*--------------Food Name-----------------*/
+.append2
+{
+    width: 38.7%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+  
+}
+/*--------------Price-----------------*/
+.append3
+{
+    width: 20%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+   
+}
+
+/*--------------Quantity-----------------*/
+.append4
+{
+    width: 25%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.payment
+{
+    position: absolute;
+    padding-top: 10px; 
+    left: 28%;
+   
+}
+
+.total
+{
+    width: 20%;
+    padding: 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.totalprice
+{
+    width: 20%;
+    padding: 5px ;
+    box-sizing: border-box;
+    border-style: none;
+    color: black;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    text-align: left;
+}
+
+.totalPayment
+{
+    position: absolute;
+    top: 120%;
+    font-size: 20px; 
+     padding: 5px ;
+}
+
+.payAmount
+{
+    width: 30%;
+    padding: 5px ;
+    box-sizing: border-box;
+    border-style: none;
+    color: black;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    text-align: left;
+}
+
+.payAmount1
+{
+    width: 32%;
+    padding: 5px ;
+    box-sizing: border-box;
+    border: 1px solid rgb(54,125,152);
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    text-align: left;
+}
+
+.paybtn
+{
+    position: absolute;
+    left: 22%;
+    top: 160%;
+    border: solid 1px #ba273f;
+    border-radius: 20px;
+    background-color: #ba273f;
+    color: white;
+    padding: 2% 5.5%;
+    font-size: 20px;
+   
+}

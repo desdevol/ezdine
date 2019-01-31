@@ -1,0 +1,174 @@
+.bigbutton{
+    border: solid 1px #ba273f;
+    border-radius: 10px;
+    background-color: #ba273f;
+    color: white;
+    padding: 1% 2%;
+    font-size: 20px;
+    width: 150px;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bigbutton:hover,#addonetable:hover{
+  box-shadow: 1px 1px 5px #303030;
+  cursor: pointer;
+}
+.tablecontainer{
+  width: 150px;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  box-shadow: 2px 2px 5px #303030;
+  background-color: #57a4d1;
+  display: inline-block; 
+}
+
+.tableblock{
+  height: 150px;
+  background-color: #114868;
+  color: white;
+  border: solid 5px #57a4d1;
+  text-align: center;
+  font-size: 60px;
+  line-height: 150px;
+}
+
+.tableFunction{
+  width: 100%;
+  height: 30px;
+  background-color: #57a4d1;
+  border: solid 0px #57a4d1;
+  border-style: none solid solid solid;
+  color: white;
+}
+
+.tableFunction:hover{
+  transition: 0.5s;
+  background-color: #57a4d1;
+  box-shadow: inset 1px 5px 10px #303030;
+  cursor: pointer;
+}
+
+#addDetail{
+  display: none;
+}
+
+#addinput{
+  border: solid 1px #13547A;
+  border-radius: 5px;
+  height: 20px;
+  width: 14%;
+  padding-left: 1%;
+  margin-bottom: 2%;
+}
+
+#addinput:focus{
+  border: solid 1px #black;
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 2px #303030;
+}
+
+#setnum,#addonetable,#closeadd{
+  border: solid 1px #ba273f;
+  background-color: #ba273f;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+#setnum:hover,#addonetable:hover,#closeadd:hover{
+  box-shadow: 1px 1px 2px #303030;
+  cursor: pointer;
+}
+
+hr{
+  padding: 0;
+  margin: 0px 5px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #13547A;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #13547A;
+    border-radius: 15px;
+    width: 30%;
+    height: 150px;
+    box-shadow: 3px 3px 10px #303030;
+    color: white;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+#changeNumlbl{
+  font-size: 25px;
+}
+#changeNumForm{
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+#changeNumBtn{
+  border: solid 1px #ba273f;
+  background-color: #ba273f;
+  color: white;
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#changeNumInput{
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#changeNumInput:hover,#changeNumInput:focus{
+  box-shadow: 1px 1px 5px #303030;
+}
+
+#changeNumBtn:hover{
+  box-shadow: 1px 1px 5px #303030;
+  cursor: pointer;
+}
+
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

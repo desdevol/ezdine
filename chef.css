@@ -1,0 +1,224 @@
+body{
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.pagetitle{
+    background-color: #13547A;
+    color: white;
+    box-shadow: 1px 1px 10px #303030;
+}
+
+.pagetitle h1{
+    margin: 0;
+    padding: 2% 4%;
+}
+
+.logout{
+    transition: 0.5s;
+    border: solid 1px #ba273f;
+    border-radius: 10px;
+    background-color: #ba273f;
+    color: white;
+    padding: 1% 2%;
+    font-size: 20px;
+    position: absolute;
+    left: 85%;
+    top: 2%;
+    box-shadow: 1px 1px 5px #303030;
+}
+
+.logout:hover{
+  transition: 0.5s;
+  box-shadow: 1px 1px 15px #303030;
+  cursor: pointer;
+}
+
+.tableBox{
+  border: solid 1px white;
+  border-width: 1px 1px 0px 1px;
+  background-color: #202020;
+  width: 25%;
+  height: 550px;
+  display: inline-block;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.tablenumber{
+  text-align: center;
+  color: #f42e4e;
+  font-size: 30px;
+}
+
+.displayedFood{
+  color: white;
+  margin-left: 2%;
+  width: 70%;
+  padding: 0;
+  display: inline-block;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.displayedQty{
+  color: white;
+  display: inline-block;
+  width: 10%;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.dump{
+  width: 14%;
+  padding: 1% 1%;
+  display: inline-block;
+  border: 0px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: white;
+  background-color: #ba273f;
+  transition: 0.5s;
+}
+
+.setting{
+  transition: 0.5s;
+  border: solid 1px #ba273f;
+  border-radius: 10px;
+  background-color: #ba273f;
+  color: white;
+  padding: 1% 1%;
+  font-size: 20px;
+  position: absolute;
+  left: 95%;
+  top: 2%;
+  box-shadow: 1px 1px 5px #303030;
+  text-decoration: none;
+}
+
+.settingContainer{
+  width: 75%;
+  margin: auto;
+  margin-top: 5%;
+  padding: 2% 8% 6% 8%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px #303030;
+  border: 0px;
+  border-radius: 20px;
+  background-color: #13547A;
+  color: white;
+}
+
+#pwd{
+  font-size: 18px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.settingData{
+  font-weight: normal;
+  padding: 0 2%;
+  border-bottom: 5px solid #003366;
+  box-shadow: 0 0 5px #303030;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 25%;
+}
+
+#settingPwd{
+  transition: 0.5s;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 1% 3%;
+  margin-top: 2%;
+  background-color: #ba273f;
+  color: white;
+}
+
+#backBtn{
+  transition: 0.5s;
+  border: 0px;
+  border-radius: 10px;
+  padding: 1% 2%;
+  background-color: #1b2840;
+  margin-top: 2%;
+  margin-left: 5%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+}
+
+#backBtn:hover{
+  transition: 0.5s;
+  box-shadow: 1px 1px 15px #303030;
+  cursor: pointer;
+}
+/*----------------------------------- CheckBox -------------------------------*/
+.check {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+/* On mouse-over, add a grey background color */
+.check:hover input ~ .checkmark {
+    box-shadow: 0px 0px 5px #303030;
+}
+
+/* When the checkbox is checked, add a blue background */
+.check input:checked ~ .checkmark {
+    background-color: #5ba5ff;
+    box-shadow: 0px 0px 8px #303030;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.check .checkmark:after {
+    left: 6px;
+    top: 4px;
+    width: 5px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

@@ -1,0 +1,66 @@
+/*Input Box*/
+.insertinput{
+    width: 50%;
+    border-radius: 2px;
+}
+
+/*Input Box Hover*/
+.insertinput:hover{
+	background-color: #faef7c;
+	border-color: blue;
+}
+
+/*Button 1,2,3 Design*/
+.button1, .button2, .button3{
+	background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 1.2s;
+}
+
+/*Button 1,2,3 Hover*/
+.button1:hover, .button2:hover, .button3:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    color: black;
+}
+
+/*Main Form CSS*/
+.formone{
+    padding-left: 15%;
+    border-style: solid;
+    border-radius: 4px;
+    border-color:  #d0d3d4 ;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10%;
+    background: linear-gradient(to bottom, #ffffcc 0%, #ccccff 100%);
+    box-shadow: 10px 10px 5px grey;
+}
+
+.returnmenu
+{
+    background-color: #1b2840;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    margin-top: 2%;
+    margin-bottom: ;
+    margin-left: 2%
+}
+
+/*Add Menu Button Hover*/
+.returnmenu:hover {
+    box-shadow: 1px 1px 5px #303030;
+}

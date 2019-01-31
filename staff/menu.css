@@ -1,0 +1,95 @@
+/*Table in general*/
+table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin-bottom: 5%;
+    font-size: 18px;
+    }
+
+/*columns*/
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/*Make the even row grey*/
+tr:nth-child(even){background-color: #f2f2f2;}
+/*Make the odd row white*/
+tr:hover {background-color: #ddd;}
+/*For table heading*/
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #29719b;
+    color: white;
+}
+
+/*Delete and Edit Href*/
+.link {
+    background-color: #ba273f;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+.link:hover {
+    box-shadow: 1px 1px 5px #303030;
+}
+
+/*Add Menu Button*/
+.menubtn {
+    background-color: #1b2840;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%
+}
+
+/*Add Menu Button Hover*/
+.menubtn:hover {
+    box-shadow: 1px 1px 5px #303030;
+}
+
+/*Make The TH text centered*/
+.straightth{
+    text-align: center;
+}
+
+#searchBox{
+    width: 20%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: solid 1px grey;
+    padding: 5px 10px;
+}
+
+#searchBox:hover{
+    box-shadow: 1px 1px 5px #303030;
+}
+#searchBox:focus{
+    box-shadow: 1px 1px 5px #29719b;
+}
+
+#searchBtn{
+    border: solid 1px #ba273f;
+    border-radius: 5px;
+    background-color: #ba273f;
+    padding: 5px 10px;
+    color: white;
+}
+
+#searchBtn:hover{
+    box-shadow: 2px 2px 5px #303030;
+    cursor: pointer;
+}
