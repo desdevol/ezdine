@@ -11,6 +11,6 @@ Ezdine is an simple web restaurant management system. It is written in JavaScrip
     password: abc <br><br>
   1. Demo staff account: <br>
     username: stf0007 <br>
-    password: efg <br>
+    password: efg <hr>
     
 **Credit:**<br> Lee Yong Wei<br>Justin Low Jin Wei<br>Muhammad Shafiq Fikri
