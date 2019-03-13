@@ -79,8 +79,8 @@ include("userAccess.php");
     	header("Location: index.php");
     }
 
-     
-     echo "<br><br><input value='Total Price:' class=\"totalprice\"  readonly><input value='".$totalprice."' class=\"total\" name=\"totalprice\"  readonly>";
+     $roundedprice = round($totalprice, 1);
+     echo "<br><br><input value='Total Price:' class=\"totalprice\"  readonly><input value='".$roundedprice."' class=\"total\" name=\"totalprice\"  readonly>";
 
 ?>  
 

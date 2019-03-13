@@ -53,7 +53,7 @@ include("userAccess.php");
 
     <?php
 
-    $sql = "SELECT payID, date, time, tableNum from payhistory";
+    $sql = "SELECT payID, date, time, tableNum from payhistory ORDER BY date DESC";
     $result = $conn->query($sql);
 
     //Search
@@ -63,7 +63,7 @@ include("userAccess.php");
       }
       else{
         $search=$_GET['search'];
-        $sql="SELECT * FROM payhistory WHERE payID LIKE '$search' OR tableNum LIKE '$search' OR date LIKE '%$search%'";
+        $sql="SELECT * FROM payhistory WHERE payID LIKE '$search' OR tableNum LIKE '$search' OR date LIKE '%$search%' ORDER BY date DESC";
         $result = $conn->query($sql);
       }
     }
